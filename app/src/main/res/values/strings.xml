@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Workout</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="start">start</string>
+    <string name="stop">stop</string>
+    <string name="reset">reset</string>
+</resources>
