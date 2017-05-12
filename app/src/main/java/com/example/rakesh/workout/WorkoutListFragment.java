@@ -15,7 +15,7 @@ import android.widget.ListView;
  * A simple {@link Fragment} subclass.
  */
 public class WorkoutListFragment extends ListFragment {      //list fragment does not need activity and won't have layout
-    static interface WorkoutListListener{                    //creating an interface to communicate to other fragments through MainActivity
+    interface WorkoutListListener{                    //creating an interface to communicate to other fragments through MainActivity
         void itemClicked(long id);
     }
     private WorkoutListListener listener;                     //interface reference variable
